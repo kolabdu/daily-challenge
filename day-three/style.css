@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: white;
+}
+.container{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+        url(1591006380284-copy.jpg)center/cover no-repeat;
+    
+    width: 100vw;
+    height: 100vh;
+}
+.title{
+    font-weight: 300;
+    font-family: sans-serif;
+    margin-bottom: .5em;
+}
+.text{
+    padding-top: 20%;
+    padding-left: 5%;
+    width: 40vw;
+}
+.para{
+    margin-bottom: 3em;
+}
+.link{
+    text-decoration: none;
+    color: magenta;
+    border: 1px solid white;
+    padding: 1em;
+}
+

@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.frame{
+    width: 28vw;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.numb{
+    width: 6vw;
+    background: red;
+    height: 7vh;
+    margin: 2% 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 1px rgba(0,0,0,.5);
+    
+}
+textarea{
+    width:27vw;
+}

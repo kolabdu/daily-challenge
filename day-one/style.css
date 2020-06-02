@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgba(200, 104, 90, .3);
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 2.5em auto;
+    background: gba(100, 204, 190, .05);
+}
+input{
+    padding: .7em;
+    margin-bottom: 1em;
+    border-radius: em;
+    border: none;
+    border-bottom: 1px solid steelblue;
+    background: transparent;
+}
+input[type=submit]{
+    width: 20%;
+    border:1px solid steelblue;
+    color: steelblue;
+}
+input[type=text]:focus{
+    border: none;
+}
